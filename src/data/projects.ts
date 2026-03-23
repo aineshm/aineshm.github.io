@@ -21,7 +21,6 @@ export const projects: readonly Project[] = [
     icon: "Home",
     label: "Solo Project",
     tags: ["Next.js", "TypeScript", "Supabase", "Vertex AI", "PostGIS", "pgvector"],
-    githubUrl: "https://github.com/aineshm/cribai",
     approach:
       "The core idea is an AI concierge that can actually do things for you — not just answer questions. It uses 13 function-calling tools with intent classification to figure out what you need, then routes simple requests (like 'show me apartments near campus') to instant tool responses and complex ones (like 'schedule tours at my top 3 picks') to a background mission executor with human-in-the-loop approval. Housing search blends PostGIS spatial queries with semantic embeddings in a 70/30 weighted ranking against 2,500+ real listings. The chat interface streams responses via SSE with structured tool outputs rendered as typed client blocks — listing cards, map overlays, comparison tables.",
   },
@@ -34,7 +33,7 @@ export const projects: readonly Project[] = [
     icon: "TrendingUp",
     label: "Solo Project",
     tags: ["Python", "FastAPI", "LangGraph", "PostgreSQL", "Next.js"],
-    githubUrl: "https://github.com/aineshm/vc-audit",
+    githubUrl: "https://github.com/aineshm/vc-audit-tool-mvp",
     approach:
       "Supports five valuation methodologies — DCF, comparables, precedent transactions, asset-based, and venture method — each plugged in as a swappable data source with full audit trails tracking every assumption and derivation step. A LangGraph research agent auto-assembles the inputs you need by pulling from SEC EDGAR, DuckDuckGo, and USASpending.gov, with a multi-provider LLM fallback chain and regex safety net for when APIs are flaky. For comparable company selection, it uses sentence-transformer embeddings to rank the EDGAR universe by cosine similarity, then a reconciliation layer with YAML-driven stage-based methodology weighting ties everything together.",
   },
@@ -59,7 +58,6 @@ export const projects: readonly Project[] = [
     icon: "Search",
     label: "Solo Project",
     tags: ["Python", "RAG", "Embeddings", "Hybrid Retrieval"],
-    githubUrl: "https://github.com/aineshm/personal-search",
     approach:
       "Takes all your local documents and notes and makes them searchable through a single query interface. Uses hybrid retrieval that combines traditional lexical search with vector embeddings so you get both exact keyword matches and semantic understanding. When you ask a complex question, a multi-hop evidence gathering pipeline follows chains of reasoning across documents, then builds responses with claim-by-claim citations so you can trace every statement back to its source.",
   },
