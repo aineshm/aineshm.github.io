@@ -1,9 +1,10 @@
 import { SectionWrapper } from "./section-wrapper";
 
 const FUN_FACTS = [
-  "From Bengaluru, India",
-  "UW-Madison '25",
-  "Building with AI daily",
+  "UW-Madison '25 — Go Badgers",
+  "Based in Chapel Hill, NC",
+  "Lived in 7 countries",
+  "Basketball, F1, Football, Tennis",
 ] as const;
 
 export function About() {
@@ -13,14 +14,19 @@ export function About() {
         About
       </h2>
       <p className="mb-8 max-w-xl text-[15px] leading-relaxed text-text-body">
-        I got into AI because I wanted to build things that feel like magic —
-        systems that understand what you need and actually do something about
-        it. What drives me is the craft of turning a messy, ambitious idea
-        into a working system: figuring out the right architecture, iterating
-        on it until it&apos;s solid, and shipping it. I&apos;m most excited
-        about agentic systems — AI that doesn&apos;t just answer questions
-        but takes action, plans multi-step workflows, and gets better with
-        feedback.
+        I&apos;m passionate about crafting ideas and problems into workflows
+        and organized systems that reliably reduce busy work and improve
+        efficiency — tools that provide real value to the people using them.
+        Whether it&apos;s an agentic assistant that automates analytics
+        workflows or a search layer that makes your documents actually
+        findable, I care most about building AI that does something useful
+        in the real world.
+      </p>
+      <p className="mb-8 max-w-xl text-[15px] leading-relaxed text-text-body">
+        Outside of tech, I&apos;m a big sports fan — basketball, football,
+        F1, and tennis. I grew up moving around a lot (Japan, Hong Kong,
+        Saudi Arabia, India, Singapore, Indonesia, and the US), which gave
+        me a knack for adapting quickly and working with all kinds of people.
       </p>
       <div className="flex flex-wrap gap-3">
         {FUN_FACTS.map((fact) => (
