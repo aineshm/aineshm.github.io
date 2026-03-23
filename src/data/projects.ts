@@ -21,6 +21,7 @@ export const projects: readonly Project[] = [
     icon: "Home",
     label: "Solo Project",
     tags: ["Next.js", "TypeScript", "Supabase", "Vertex AI", "PostGIS", "pgvector"],
+    deployUrl: "https://ai-real-estate-agent.omega.vercel.app",
     approach:
       "The core idea is an AI concierge that can actually do things for you — not just answer questions. It uses 13 function-calling tools with intent classification to figure out what you need, then routes simple requests (like 'show me apartments near campus') to instant tool responses and complex ones (like 'schedule tours at my top 3 picks') to a background mission executor with human-in-the-loop approval. Housing search blends PostGIS spatial queries with semantic embeddings in a 70/30 weighted ranking against 2,500+ real listings. The chat interface streams responses via SSE with structured tool outputs rendered as typed client blocks — listing cards, map overlays, comparison tables.",
   },
