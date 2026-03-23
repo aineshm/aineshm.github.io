@@ -5,9 +5,9 @@ import { getAllPosts } from "@/lib/blog";
 import { BlogPostCard } from "@/components/blog-post-card";
 
 export const metadata: Metadata = {
-  title: "Blog — Ainesh Mohan",
+  title: "Blog | Ainesh Mohan",
   description:
-    "Exploring AI — new developments, research, and where things are heading.",
+    "Exploring AI: new developments, research, and where things are heading.",
 };
 
 export default function BlogIndex() {
@@ -25,7 +25,7 @@ export default function BlogIndex() {
         Blog
       </h1>
       <p className="mb-12 text-[15px] text-text-muted">
-        Exploring AI — new developments, research, and where things are
+        Exploring AI: new developments, research, and where things are
         heading.
       </p>
       {posts.length === 0 ? (

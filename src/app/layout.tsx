@@ -18,13 +18,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Ainesh Mohan — Software & AI Engineer",
+  title: "Ainesh Mohan | Software & AI Engineer",
   description:
-    "New grad engineer building AI systems — agentic assistants, inference pipelines, and full-stack products. UW-Madison CS + Data Science.",
+    "New grad engineer building AI systems: agentic assistants, inference pipelines, and full-stack products. UW-Madison CS + Data Science.",
   openGraph: {
-    title: "Ainesh Mohan — Software & AI Engineer",
+    title: "Ainesh Mohan | Software & AI Engineer",
     description:
-      "New grad engineer building AI systems — agentic assistants, inference pipelines, and full-stack products.",
+      "New grad engineer building AI systems: agentic assistants, inference pipelines, and full-stack products.",
     type: "website",
   },
 };

@@ -21,7 +21,7 @@ export async function generateMetadata({
   if (!post) return {};
 
   return {
-    title: `${post.title} — Ainesh Mohan`,
+    title: `${post.title} | Ainesh Mohan`,
     description: post.description,
     openGraph: {
       title: post.title,

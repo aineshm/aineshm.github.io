@@ -13,7 +13,7 @@ export function Hero() {
         </h1>
         <p className="mb-8 max-w-md text-[15px] leading-relaxed text-text-body">
           I&apos;m passionate about building AI that works in the real
-          world. From agentic assistants to inference pipelines — I love
+          world. From agentic assistants to inference pipelines, I love
           turning ideas into systems that ship.
         </p>
         <div className="flex gap-3">
@@ -32,7 +32,7 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Right column — Bento grid */}
+      {/* Right column - Bento grid */}
       <div className="grid w-full max-w-sm grid-cols-2 gap-3">
         <BentoCard colSpan={2}>
           <span className="text-[10px] uppercase tracking-wider text-text-label">
