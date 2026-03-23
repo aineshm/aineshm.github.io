@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-serif: var(--font-playfair), Georgia, serif;
+
+  --color-bg: #FAFAF8;
+  --color-text-primary: #1C1917;
+  --color-text-body: #57534E;
+  --color-text-muted: #78716C;
+  --color-text-label: #A8A29E;
+  --color-accent-dark: #292524;
+  --color-border: #E7E5E4;
+  --color-card: #FFFFFF;
+  --color-accent-blue: #2563EB;
+  --color-accent-purple: #7C3AED;
+  --color-icon-bg: #EFF6FF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus rings for keyboard navigation */
+:focus-visible {
+  outline: 2px solid var(--color-accent-blue);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
