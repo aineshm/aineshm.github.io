@@ -39,7 +39,7 @@ export default function RootLayout({
       lang="en"
       className={`${playfair.variable} ${inter.variable}`}
     >
-      <body className="bg-[#FAFAF8] font-sans antialiased">
+      <body className="bg-bg font-sans antialiased">
         <Providers>{children}</Providers>
       </body>
     </html>
